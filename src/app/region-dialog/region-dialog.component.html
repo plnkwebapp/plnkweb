@@ -1,0 +1,7 @@
+<h1 mat-dialog-title>Select a Location</h1>
+<div mat-dialog-content style="padding:2em" class="dialog-content" >
+    <button mat-stroked-button (click)="selectLocation(location)" tabindex="-1" *ngFor="let location of data.locations">
+        <div class="location-id">{{location.id}}</div>
+        <div class="location-state">{{location.state}}</div>
+    </button>
+</div>
