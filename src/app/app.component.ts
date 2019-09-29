@@ -70,7 +70,7 @@ export class AppComponent implements OnInit {
           this.anchorClicked();
           return false;
         });
-        break;
+        //break;
       }
     }
 
